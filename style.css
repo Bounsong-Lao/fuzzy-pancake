@@ -1,0 +1,25 @@
+/* ໃຊ້ລະຫັດ CSS ຈາກຄໍາຕອບກ່ອນໜ້ານີ້ທັງໝົດ */
+
+/* ເພີ່ມ CSS ນີ້ເພື່ອອອກແບບປຸ່ມດາວໂຫຼດ PDF */
+.download-btn {
+    background-color: #00796b; /* ສີຂຽວອົມຟ້າ */
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none; /* ເອົາຂີດກ້ອງລິ້ງອອກ */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    display: inline-block; /* ເພື່ອໃຫ້ສາມາດກໍານົດ padding ໄດ້ */
+    margin-top: 10px; /* ໃຫ້ມີໄລຍະຫ່າງຈາກລາຄາ */
+}
+
+.download-btn:hover {
+    background-color: #004d40;
+}
+
+/* ຖ້າທ່ານຕັດສິນໃຈບໍ່ໃຊ້ກະຕ່າ, ທ່ານສາມາດເອົາ CSS ຂອງ .cart-icon ອອກໄດ້ */
+.cart-icon img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
